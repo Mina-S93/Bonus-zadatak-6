@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bonus zadatak 6</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<header>
+			<h2>Simple, traffic-based pricing</h2>
+			<p>Sign-up for our 30-day trial. No credit card required.</p>
+		</header>
+		<main>
+			<section class="main">
+				<div class="pageviews-price-slider">
+					<div class="pageviews-container">
+						<span class="pageviews"></span> <span>PAGEVIEWS</span>
+					</div>
+					<div class="price-container">
+						<span class="dolar">$</span><span class="price"></span>
+						<span class="month"> / month</span>
+					</div>
+					<form action="#">
+						<input
+							type="range"
+							name="range"
+							id="range"
+							min="0"
+							max="4"
+							class="styled-slider slider-progress"
+						/>
+					</form>
+				</div>
+
+				<div class="biling">
+					<span class="biling-label">Monthly Billing</span>
+					<div class="discount">
+						<div class="discount-btn"></div>
+					</div>
+					<span class="biling-label">Yearly Billing</span>
+					<p class="discount-percent">
+						25% <span class="discount-mobile">discount</span>
+					</p>
+				</div>
+			</section>
+
+			<section class="footer">
+				<ul>
+					<li>Unlimited websites</li>
+					<li>100% data ownership</li>
+					<li>Email reports</li>
+				</ul>
+
+				<button>Start my trial</button>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
